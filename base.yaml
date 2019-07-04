@@ -1,0 +1,20 @@
+python-cobs-pip:
+  debian:
+    pip:
+      packages: [cobs]
+  fedora:
+    pip:
+      packages: [cobs]
+  ubuntu:
+    pip:
+      packages: [cobs]
+python-ttastromech-pip:
+  debian:
+    pip:
+      packages: [ttastromech]
+  fedora:
+    pip:
+      packages: [ttastromech]
+  ubuntu:
+    pip:
+      packages: [ttastromech]
