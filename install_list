@@ -1,0 +1,5 @@
+cat <<EOT | sudo tee /etc/ros/rosdep/sources.list.d/10-david.list > /dev/null
+yaml https://raw.githubusercontent.com/dmweis/rosdep_keys/master/base.yaml
+EOT
+rosdep update
+echo "Done"
